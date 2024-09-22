@@ -38,7 +38,7 @@ DATABASES = {
     },
 }
 ```
-💡 Change those settings according to your local setup.
+💡 Change those settings in config/settings.py file according to your local setup.
 <br>
 <br>
 
@@ -58,7 +58,7 @@ PASSWORD=your_password
 ```
 <aside>💡 replace "your_username" and "your_password" with a valid username and password respectively</aside>
 
-<aside>💡 Be aware that `django-environ` must be installed for this to work. Such dependency should be installed by running `pipenv install`</aside>
+
 <br> <br>
 
 # API Endpoints
