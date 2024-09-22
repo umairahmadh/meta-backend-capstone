@@ -3,7 +3,7 @@ This is the final assignment for the Bakend Developer Capstone Course of the Met
 <br> <br>
 
 # Project Structure
-The project is composed of two apps, `api` and `restaurant`. The `api` app serves API endpoints of the project, while the `restaurant` app serves its frontend. The `config` (the project folder) directory holds the major settings of the project
+The project is composed of two apps, `api` and `restaurant`. The `api` app serves API endpoints of the project, while the `restaurant` app serves its frontend. The `littlelemon` (the project folder) directory holds the major settings of the project
 <br> <br>
 
 # Installation
@@ -38,7 +38,7 @@ DATABASES = {
     },
 }
 ```
-💡 Change those settings in config/settings.py file according to your local setup.
+💡 Change those settings in littlelemon/settings.py file according to your local setup.
 <br>
 <br>
 
