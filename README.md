@@ -8,16 +8,16 @@ The project is composed of two apps, `api` and `restaurant`. The `api` app serve
 
 # Installation
 
-install the dependencies
-```jsx
-pipenv install
-```
-
 Activate the virtual environment
-
 ```jsx
-pipenv shell
+source venv/bin/activate
 ```
+
+install requirements
+```jsx
+pip install -r requirements.txt
+```
+
 <br>
 
 # Setup
