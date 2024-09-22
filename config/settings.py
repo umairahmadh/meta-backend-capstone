@@ -64,12 +64,13 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'littlelemon',
-        'HOST': 'localhost',
+        'HOST': '192.168.1.11',
         'PORT': '3306',
-        'USER': 'admin',
-        'PASSWORD': '',
+        'USER': 'rootsha',
+        'PASSWORD': 'rootsha',
         'OPTIONS': {
             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
+	    'auth_plugin': 'mysql_native_password',
         },
     },
 }
