@@ -4,7 +4,7 @@ import json
 
 from api.serializers import MenuSerializer, BookingSerializer
 from restaurant.models import Menu, Booking
-from config.tests.mixins import (
+from littlelemon.tests.mixins import (
     UserMixin,
     BookingMixin, SingleBookingMixin,
     MenuItemMixin, SingleMenuItemMixin,
