@@ -38,7 +38,7 @@ DATABASES = {
     },
 }
 ```
-💡 Change those settings according to your local setup.
+💡 Change those settings in config/settings.py file according to your local setup.
 <br>
 <br>
 
